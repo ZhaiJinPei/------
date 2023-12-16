@@ -1,13 +1,11 @@
 div {
-    user-select: none;/* user-select: 元素及其子元素的文本不可选中 */
+    user-select: none;
 }
 
 * {
-    font-size: 2vmin;/* vmin:视口高度 vw 和宽度 vh 两者之间的最小值 */
+    font-size: 2vmin;
     margin: 0;
-    /* margin 属性为给定元素设置所有四个（上右下左）方向的外边距属性。
-    也就是 margin-top、margin-right、margin-bottom 和 margin-left 四个外边距属性设置的简写。 */
-    padding: 0;/* padding: CSS 简写属性控制元素所有四条边的内边距区域 */
+    padding: 0;
 }
 
 body {
